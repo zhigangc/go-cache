@@ -4,8 +4,8 @@ import (
 	"container/list"
 	"errors"
 
-	. "go-cache"
-	"go-cache/base"
+	. "github.com/zhigangc/go-cache"
+	"github.com/zhigangc/go-cache/base"
 )
 
 const (

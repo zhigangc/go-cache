@@ -1,9 +1,9 @@
 package test
 
 import "testing"
-import "go-cache/arc"
-import "go-cache/lru"
-import "go-cache/base"
+import "github.com/zhigangc/go-cache/arc"
+import "github.com/zhigangc/go-cache/lru"
+import "github.com/zhigangc/go-cache/base"
 import "strings"
 import "io/ioutil"
 import "sync"

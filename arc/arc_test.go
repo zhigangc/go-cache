@@ -1,7 +1,7 @@
 package arc
 
 import "testing"
-import "go-cache"
+import "github.com/zhigangc/go-cache"
 import "math/rand"
 import "time"
 import "strconv"

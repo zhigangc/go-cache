@@ -1,6 +1,6 @@
 package arc
 
-import "go-cache/base"
+import "github.com/zhigangc/go-cache/base"
 
 func NewARCache(size int) *base.BaseCache {
 	arc := newCdbm()

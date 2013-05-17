@@ -1,6 +1,6 @@
 package lru
 
-import "go-cache/base"
+import "github.com/zhigangc/go-cache/base"
 
 func NewLRUCache(size int) *base.BaseCache {
 	lru := newCdbm()

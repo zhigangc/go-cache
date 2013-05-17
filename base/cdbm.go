@@ -1,6 +1,6 @@
 package base
 
-import . "go-cache"
+import . "github.com/zhigangc/go-cache"
 import "math/rand"
 
 type CdbManager interface {

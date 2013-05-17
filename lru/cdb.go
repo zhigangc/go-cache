@@ -2,8 +2,8 @@ package lru
 
 import (
 	"container/list"
-	. "go-cache"
-	"go-cache/base"
+	. "github.com/zhigangc/go-cache"
+	"github.com/zhigangc/go-cache/base"
 )
 
 type LruCdbm struct {
